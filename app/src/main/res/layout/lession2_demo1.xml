@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView
+            android:text="TabelLayoutExample"
+            android:textColor="@color/black"
+            android:background="@color/gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="b1"
+            android:layout_column="1"
+
+            />
+        <Button
+            android:text="b2"
+
+            />
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:background="@drawable/my_btn"
+
+            android:text="b3" />
+        <Button
+            android:text="b4"
+            android:layout_column="3"
+            />
+        <Button
+            android:text="b5"
+
+            />
+    </TableRow>
+</TableLayout>

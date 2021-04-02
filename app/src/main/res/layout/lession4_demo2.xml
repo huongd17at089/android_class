@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/txtDate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="0dp"
+        android:inputType="textPersonName"
+        android:hint="enter time"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="250dp"
+        android:text="Select Date" />
+
+    <EditText
+        android:id="@+id/txtTime"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="2dp"
+        android:inputType="textPersonName"
+        android:hint="enter date"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="250dp"
+        android:text="Select Time" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Example for DataPicker and TimePicker" />
+
+
+
+
+</RelativeLayout>

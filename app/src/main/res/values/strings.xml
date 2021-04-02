@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">android_class_2021</string>
+    <string name="textview">TextView</string>
+    <string name="huong">huong</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string-array name="tech">
+        <item>java</item>
+        <item>c++</item>
+    </string-array>
+    <string-array name="title">
+        <item>ios</item>
+        <item>android</item>
+    </string-array>
+    <string-array name="img">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

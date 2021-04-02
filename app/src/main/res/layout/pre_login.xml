@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        android:text="Đăng nhập"
+        android:textColor="@color/black"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/login" />
+
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="163dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/a67586673" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="403dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="username"
+        android:textColor="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt1" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="403dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:textColor="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <Button
+        android:id="@+id/bDangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Đăng nhập"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/gray"
+        app:layout_constraintBottom_toBottomOf="@+id/bQuenMK"
+        app:layout_constraintEnd_toStartOf="@+id/bQuenMK"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <Button
+        android:id="@+id/bQuenMK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Quên MK"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/gray"
+        app:layout_constraintEnd_toStartOf="@+id/bTroGiup"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toEndOf="@+id/bDangNhap"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
+
+    <Button
+        android:id="@+id/bTroGiup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="Trợ giúp"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/gray"
+        app:layout_constraintBottom_toBottomOf="@+id/bQuenMK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bQuenMK"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
